@@ -29,6 +29,17 @@
         myApp.controller('cameraCtrl', function () {
             console.log("cameraCtrl is ready.");
             
+            var rect = document.body.getBoundingClientRect();
+            camera_canvas_width = rect.width;
+            camera_canvas_height = rect.height;
+            console.log("camera_canvas_width:" + camera_canvas_width);
+            console.log("camera_canvas_height:" + camera_canvas_height);
+            
+            // $("#v_title").text("撮影する");
+            $("#saved_date").text("");
+            $("#camera_pic").attr('src', '');
+            $("#camera_pic").css('display', 'none');
+            $("#view_date").css('display', 'none');
         });
         
         myApp.controller('listCtrl', function () {
