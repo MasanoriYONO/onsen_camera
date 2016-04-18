@@ -1,0 +1,55 @@
+
+canvas.c_photo{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.marker_div{
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.75em;
+}
+.description{
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;"
+}
+
+.form-row {
+  margin: 0px;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.width-half {
+  width: 48%;
+}
+
+.lucent {
+  opacity: 0.4;
+}
+
+.note {
+  margin: 12px 8px;
+  font-size: 13px;
+}
+
+.vspc {
+  margin-top: 20px;
+}
+
+.formarea {
+  width: 90%;
+  margin: 50px auto 0px auto;
+}
+.button_block {
+  width: 90%;
+  margin: 20px auto 0px auto;
+}
+.button_block {
+  width: 90%;
+  margin: 20px auto 0px auto;
+}
