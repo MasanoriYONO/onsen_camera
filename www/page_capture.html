@@ -1,0 +1,24 @@
+<ons-page ng-controller="cameraCtrl">
+<ons-toolbar fixed-style>
+    <div class="left">
+        <ons-back-button>Back</ons-back-button> 
+    </div>
+    <div class="center" id="v_title">撮影する</div>
+</ons-toolbar>
+
+<img src="" style="width:90%;margin-left:5%;margin-top:5%;" id="camera_pic">
+
+<div style="text-align:center;">
+    <div id="view_date">
+    <br />
+    <ons-icon icon="fa-clock-o"></ons-icon> <span class="desc" id="saved_date"></span>
+    </div>
+    
+    <div class="formarea" style="margin-top: 10px;margin-bottom: 30px;">
+        <div class="vspc form-row">
+            <ons-button id="btn_call" modifier="large--cta" onclick="camera();">
+            <ons-icon icon="fa-camera"></ons-icon> 写真を撮る</ons-button>
+        </div>
+    </div>
+</div>
+</ons-page>

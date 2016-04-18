@@ -8,7 +8,25 @@
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
     <script>
-        ons.bootstrap();
+        var myApp = ons.bootstrap();
+        
+        document.addEventListener("deviceready", onDeviceReady, false);
+            
+        function onDeviceReady(){
+            console.log("PhoneGap is ready.");
+            
+        }
+        
+        myApp.controller('cameraCtrl', function () {
+            console.log("cameraCtrl is ready.");
+            
+        });
+        
+        myApp.controller('listCtrl', function () {
+            console.log("listCtrl is ready.");
+            
+        });
+
     </script>
 </head>
 <body>
