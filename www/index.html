@@ -21,7 +21,9 @@
             
         function onDeviceReady(){
             console.log("PhoneGap is ready.");
-            
+            // 画像ファイル保存のディレクトリ作成と取得。
+            saved_photo_filename = "dummy.jpg";
+            camera_readImageFile('');
         }
         
         myApp.controller('cameraCtrl', function () {
